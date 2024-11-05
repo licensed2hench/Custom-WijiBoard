@@ -1,0 +1,272 @@
+@font-face {
+  font-family: 'Special Elite';
+  src: url('/SpecialElite.woff2') format('woff2');
+}
+
+body {
+  background: #1d1e1f;
+  font-family: 'Special Elite', cursive;
+  padding: 0;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+}
+
+.ouija-title {
+  font-family: 'Special Elite', cursive;
+  color: rgb(129, 110, 85);
+  /* Assuming a white color for the text */
+  text-align: center;
+  /* Center the title */
+  font-size: 3em;
+  /* Adjust the size as necessary */
+  margin: 0.5em 0;
+  /* Add some space around the title */
+  letter-spacing: 5px;
+  /* Increase letter-spacing for the typewriter effect */
+  text-shadow: 6px 2px #000;
+  /* Add a shadow for a 3D effect */
+}
+
+.svg-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150px;
+  /* Adjust based on the size of your SVG */
+  height: 150px;
+  /* Adjust based on the size of your SVG */
+  z-index: 10;
+  /* Ensure it's above other content */
+}
+
+.svg-container svg {
+  width: 100%;
+  /* Additional styles if needed */
+}
+
+.LOGO {
+  display:flex;
+  justify-content:center;
+  width: 100%;
+  height: 45%;
+  text-align: center;
+}
+.corner {
+  position: fixed;
+  width: 150px; /* adjust as needed */
+  height: 150px; /* adjust as needed */
+}
+
+.top-left {
+  top: 0;
+  left: 0;
+  transform: rotate(0deg);
+}
+
+.top-right {
+  top: 0;
+  right: 0;
+  transform: rotate(90deg);
+}
+
+.bottom-left {
+  bottom: 0;
+  left: 0;
+  transform: rotate(270deg);
+}
+
+.bottom-right {
+  bottom: 0;
+  right: 0;
+  transform: rotate(180deg);
+}
+
+.svg-header {
+  width: 550px;
+  /* Adjust as necessary */
+  height: auto;
+  /* cursor: pointer; */
+}
+
+.keyboard {
+  align-self: flex-start;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.keyrow {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.spacer {
+  flex-basis: 100%;
+  height: 0;
+}
+
+.keys {
+  font-family: 'Special Elite', cursive;
+  background: linear-gradient(to top, #73634f, tan);
+  /* Simulating a gloss effect with a gradient */
+  color: #282828;
+  width: 45px;
+  height: 45px;
+  line-height: 50px;
+  font-size: 30px;
+  border-radius: 50%;
+  text-align: center;
+  float: none;
+  margin-right: 0;
+  margin-bottom: 0;
+  border: 4px solid #6b6b6b;
+  /* Simulating metal color */
+  box-shadow:
+    0px 6px 8px rgba(0, 0, 0, 0.3),
+    /* Drop shadow for depth */
+    inset 0 1px 2px rgba(117, 117, 117, 0.3),
+    /* Top inner highlight */
+    inset 0 -1px 2px rgba(0, 0, 0, 0.5);
+  /* Bottom inner shadow for depth */
+  transition: box-shadow 0.1s, transform 0.1s;
+  user-select: none;
+  position: relative;
+  /* Needed for absolute positioning of pseudo-elements */
+  overflow: hidden;
+  /* Ensures the pseudo-element doesn't go outside the button */
+
+}
+
+.bigkey {
+  font-family: 'Special Elite', cursive;
+  background: linear-gradient(to top, #73634f, tan);
+  /* Simulating a gloss effect with a gradient */
+  color: #282828;
+  width: 180px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 25px;
+  border-radius: 25px;
+  text-align: center;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 15px;
+  border: 3px solid #6b6b6b;
+  /* Simulating metal color */
+  box-shadow:
+    0px 6px 8px rgba(0, 0, 0, 0.3),
+    /* Drop shadow for depth */
+    inset 0 1px 2px rgba(117, 117, 117, 0.3),
+    /* Top inner highlight */
+    inset 0 -1px 2px rgba(0, 0, 0, 0.5);
+  /* Bottom inner shadow for depth */
+  transition: box-shadow 0.05s, transform 0.05s;
+  /* Smooth transition for click effect */
+  user-select: none;
+  position: relative;
+  /* Needed for absolute positioning of pseudo-elements */
+  overflow: hidden;
+  /* Ensures the pseudo-element doesn't go outside the button */
+}
+
+.medkey {
+  font-family: 'Special Elite', cursive;
+  background: linear-gradient(to top, #73634f, tan);
+  /* Simulating a gloss effect with a gradient */
+  color: #282828;
+  width: 90px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 25px;
+  border-radius: 25px;
+  text-align: center;
+  float: center;
+  margin-right: 30px;
+  margin-bottom: 15px;
+  border: 3px solid #6b6b6b;
+  /* Simulating metal color */
+  box-shadow:
+    0px 6px 8px rgba(0, 0, 0, 0.3),
+    /* Drop shadow for depth */
+    inset 0 1px 2px rgba(117, 117, 117, 0.3),
+    /* Top inner highlight */
+    inset 0 -1px 2px rgba(0, 0, 0, 0.5);
+  /* Bottom inner shadow for depth */
+  transition: box-shadow 0.05s, transform 0.05s;
+  /* Smooth transition for click effect */
+  user-select: none;
+  position: relative;
+  /* Needed for absolute positioning of pseudo-elements */
+  overflow: hidden;
+  /* Ensures the pseudo-element doesn't go outside the button */
+}
+
+/* Glass highlight effect */
+.keys::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  right: -30%;
+  bottom: -10%;
+  background: radial-gradient(circle, rgba(227, 227, 227, 0.6), transparent 20%);
+  transform: rotate(60deg);
+  pointer-events: none;
+  /* Allows clicks to pass through to the button element */
+}
+
+.bigkey::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  right: -1%;
+  bottom: -1%;
+  background: radial-gradient(circle, rgba(227, 227, 227, 0.3), transparent 20%);
+  transform: rotate(60deg);
+  pointer-events: none;
+  /* Allows clicks to pass through to the button element */
+}
+
+.medkey::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  right: -1%;
+  bottom: -1%;
+  background: radial-gradient(circle, rgba(227, 227, 227, 0.3), transparent 20%);
+  transform: rotate(60deg);
+  pointer-events: none;
+  /* Allows clicks to pass through to the button element */
+}
+
+.keys:active::after,
+.bigkey:active::after,
+.medkey:active::after {
+  background: radial-gradient(circle, rgba(200, 200, 200, 0.6), transparent 20%);
+  /* Dim the highlight when the button is pressed */
+}
+
+/* Button click effect */
+.keys:active,
+.bigkey:active,
+.medkey:active {
+  box-shadow:
+    0px 2px 3px rgba(0, 0, 0, 0.3),
+    /* Smaller outer shadow */
+    inset 0 1px 2px rgba(255, 255, 255, 0.5),
+    /* Maintain top inner highlight */
+    inset 0 -1px 2px rgba(0, 0, 0, 0.7);
+  /* Maintain bottom inner shadow */
+  transform: translateY(4px);
+  /* Simulate press down */
+}
