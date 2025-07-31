@@ -10,7 +10,7 @@ This repository contains source files for a personal, customized version of the 
 
 ---
 
-## What is the original WijiBoard?
+## What is the Original WijiBoard?
 
 The **WijiBoard** is a unique, remote-controlled interactive board that lets you move a planchette using WiFi, Bluetooth, or a web interface. It combines hands-on electronics with fun, supernatural-inspired functionality, providing a fascinating way to learn hardware, programming, and PCB design.
 
@@ -18,7 +18,7 @@ To see it in action, check out our [YouTube video](https://youtu.be/cnTcyXp5cuc?
 
 ---
 
-## What is the custon WijiBoard?
+## What is the Custom WijiBoard?
 
 I am attempting to modify the files of this project to exspand the **WijiBoard** fuctionality.
 
