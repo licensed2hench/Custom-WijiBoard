@@ -1,14 +1,14 @@
-# Custom WijiBoard Project
+## Custom WijiBoard Project ##
 
 Welcome to the **Custom WijiBoard** GitHub repository
 ---
 
-## Important Note
+## Important Note ##
 
 This repository contains source files for a personal, customized version of the **WijiBoard**. See the original for better information on support and resorces.
 ---
 
-## What is the original WijiBoard?
+## What is the original WijiBoard? ##
 
 The **WijiBoard** is a unique, remote-controlled interactive board that lets you move a planchette using WiFi, Bluetooth, or a web interface. It combines hands-on electronics with fun, supernatural-inspired functionality, providing a fascinating way to learn hardware, programming, and PCB design.
 
@@ -16,7 +16,7 @@ To see it in action, check out our [YouTube video](https://youtu.be/cnTcyXp5cuc?
 
 ---
 
-## What is the custon WijiBoard?
+## What is the custon WijiBoard? ##
 
 I am atemptong to modify the files of this project to exspand the **WijiBoard** fuctionality.
 Goals:
@@ -34,7 +34,7 @@ Currenly I have lost access to the original video tutorial. I will see if I can 
 
 ---
 
-### Components Used
+## Components Used
 
 - ESP32 Microcontroller (recommended)
 - Stepper Motors
