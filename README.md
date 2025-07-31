@@ -49,9 +49,6 @@ Currenly I have lost access to the original video tutorial. I will see if I can 
 
 ## Author
 
-The original project was created by [Ryan Kelly](https://www.thebetterryankelly.com/) under **Factorem**. For more about thier work and other projects, visit [Factorem](https://factorem.io/), where we specialize in educational resources and production design consulting for makers, DIYers, and developers.
+The original project was created by [Ryan Kelly](https://www.thebetterryankelly.com/) under **Factorem**. For more about thier work and other projects, visit [Factorem](https://factorem.io/).
 
 ---
-
-Thank you for checking out WijiBoard! Have fun exploring, building, and customizing your own interactive planchette experience.
-
