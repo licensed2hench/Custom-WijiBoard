@@ -23,7 +23,7 @@ To see it in action, check out our [YouTube video](https://youtu.be/cnTcyXp5cuc?
 I am attempting to modify the files of this project to exspand the **WijiBoard** fuctionality.
 
 Goals:
-Add the ability to transmit a fill string of text. Currently it can only do one letter at a time, not accepting a new input until after the old input cycle has completed.
+Add the ability to transmit a full string of text. Currently it can only do one letter at a time, not accepting a new input until after the old input cycle has completed.
 Add more "Hot Key" words phrases and behaviors, so that more complex behavior can be automated with a single command.
 Add Home Assistant integration, so that Home Assistant can trigger pe-programed sequences and ideally, send full text strings.
 
