@@ -13,7 +13,6 @@ Reson for this version:
 3 - Modify the web page to accept sting text instead of a single character. 
 4 - adapt code to work wil ESPHome and Home Assistant. 
     this would normaly be prity easy but I am not up on using arduino code with H.A. devices instead using the ESPHome plug in to flash to devices. This requires YAML coding.
-
 5 - Modify the web page interace from QWRTY to match the art layout. 
 
 ---
