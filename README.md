@@ -7,7 +7,8 @@ Welcome to the **Custom WijiBoard** GitHub repository
 ## Important Note
 
 This repository contains source files for a personal, customized version of the **WijiBoard**. See the original for better information on support and resorces.
-Reson for this version
+Reson for this version:
+
 1 - update artwork and coordinates to fix different sizex box.
 2 - Modify the web page interace from QWRTY to match the art layout.
 3 - Modify the web page to accept sting text instead of a single character
