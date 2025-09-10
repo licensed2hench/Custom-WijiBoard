@@ -11,9 +11,9 @@ Reson for this version
 1 - update artwork and coordinates to fix different sizex box.
 2 - Modify the web page interace from QWRTY to match the art layout.
 3 - Modify the web page to accept sting text instead of a single character
-2 - adapt code to work wil ESPHome and Home Assistant.
+4 - adapt code to work wil ESPHome and Home Assistant.
     this would normaly be prity easy but I am not up on using arduino code with H.A. devices instead using the ESPHome plug in to flash to devices. This requires YAML coding
-4 - Modify the web page interace from QWRTY to match the art layout
+5 - Modify the web page interace from QWRTY to match the art layout
 
 ---
 
